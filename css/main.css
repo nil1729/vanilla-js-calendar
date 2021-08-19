@@ -1,0 +1,96 @@
+.navigation.navigation-bottom button.btn {
+	width: 100%;
+}
+
+button {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.bg-grey {
+	background-color: rgb(197, 196, 196) !important;
+}
+
+.day-slot {
+	cursor: pointer;
+}
+
+.weekend {
+	pointer-events: none !important;
+}
+
+.scheduled-dates {
+	height: 450px !important;
+	overflow-y: hidden;
+}
+
+.scheduled-dates .scroll-container {
+	height: 390px !important;
+	overflow-y: scroll;
+}
+
+.bg-grey.scheduled-day-slot,
+.scheduled-day-slot {
+	background-color: rgb(184, 184, 241) !important;
+}
+
+.table > :not(caption) > * > * {
+	padding: 0.2rem 0.2rem;
+}
+.slot-option {
+	width: fit-content;
+}
+
+.day-slot.type-3-unselected {
+	background-color: rgb(199, 226, 199);
+}
+
+.day-slot.type-2-unselected {
+	background-color: rgb(243, 243, 184) !important;
+}
+
+.day-slot.type-3.selected {
+	background-color: darkgreen !important;
+	color: white !important;
+}
+
+.day-slot.type-2.selected {
+	background-color: yellow !important;
+}
+
+#calendar-body tr {
+	line-height: 16px;
+	min-height: 16px;
+	height: 16px;
+	font-size: 14px;
+}
+
+#calendar-body tr:last-child {
+	display: none;
+}
+.table100,
+.row,
+.container,
+.table-responsive,
+.table-bordered {
+	height: 100%;
+}
+table thead tr th {
+	font-size: 14px;
+}
+ul.dropdown-menu li a {
+	font-size: 14px;
+}
+.date-str-selected-events {
+	font-size: 13.5px;
+}
+.date-str-selected-events-header {
+	font-size: 14px;
+}
+.submit-btn-container {
+	position: relative;
+}
+.submit-btn-container button {
+	position: fixed;
+	top: 85vh;
+}
